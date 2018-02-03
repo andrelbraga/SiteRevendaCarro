@@ -13,11 +13,15 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/nav.css">
 
+        <!--Bootstrap Plugin 3.3.7-->
+        <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
     </head>
     <body>
+
         <?php
-            /* Header Dinâmico */
-            include_once(__DIR__."/shared/header.php"); 
+            /* Nav Dinâmico */
+            include_once(__DIR__."/shared/nav.php"); 
         ?>
 
         <?php
@@ -32,5 +36,10 @@
 
         <!-- Script local-->
         <script src="js/script.js"></script>
+
+        <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Plugin Bootstrap 3.3.7-->
+        <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     </body>
 </html>
