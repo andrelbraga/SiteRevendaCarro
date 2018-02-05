@@ -1,3 +1,14 @@
-body{
+html * {
     font-family: 'Roboto', sans-serif;
+    border-radius: 0px !important;
 }
+
+header{
+    padding: 30px;
+}
+
+@media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
